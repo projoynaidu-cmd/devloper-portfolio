@@ -176,17 +176,17 @@ main section{
     font-size: #e61414;
 }
 /* resume style */
-.resume-section{
+.skills-containers{
     margin-top: 20px;
     background-color: #FFF;
 }
-.resume-title{
+.skills-title{
     text-align: center;
     font-size: 36px;
     color: #474747;
 
 }
-.resume-section .des{
+.skills-containers .des{
     display: flex;
     align-items: center;
     /* width: 600px; */
@@ -241,4 +241,150 @@ main section{
     font-size: 16px;
     color: #555;
     text-align: left;
+}
+/* resume style */
+.resume{
+    /* background-color: red; */
+}
+.resume .heading{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.resume-container .resume-column-title{
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.resume-column .experience{
+    margin: 20px;
+}
+.experience .experience-title{
+    color: #302f2f;
+    font-size: 18px;
+}
+.experience .experience-sub-title{
+    margin: 10px 0px 10px 0px;
+}
+.experience .experience-des{
+    font-size: 14px;
+}
+hr{
+    margin-left: 18px;
+}
+.center{
+
+    
+}
+footer {
+    background-color: #FFF8F3;
+    padding: 60px 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+/* Contact Section Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Social Media Info */
+.socal-media {
+    flex: 1;
+    min-width: 300px;
+}
+
+.socal-media h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #181818;
+}
+
+.socal-media p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Icon Box */
+.icon-box {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-box a {
+    font-size: 24px;
+    color: #474747;
+    transition: color 0.3s ease;
+}
+
+.icon-box a:hover {
+    color: #FD6E0A;
+}
+
+/* Contact Form */
+.form {
+    flex: 1;
+    min-width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #c435351c;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea:active{
+border: none;
+}
+form textarea {
+    min-height: 120px;
+}
+
+form input[type="submit"] {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e75a00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
