@@ -41,7 +41,7 @@ project-root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/projoynaidu-cmd/devloper-portfolio.git
    ```
 2. Open `index.html` in your browser to check out the portfolio.
 3. Customize the content (text, images, colors) as you like!
