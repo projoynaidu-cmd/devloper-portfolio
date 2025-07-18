@@ -24,8 +24,8 @@
 /* ================= HEADER & NAV ================= */
 
 header {
-  background: url("../images/header_bg.png") bottom right no-repeat,
-    url("../images/developer.png") top left no-repeat, linear-gradient(#fff, #fff);
+  background: url("images/header_bg.png") bottom right no-repeat,
+    url("developer.png") top left no-repeat, linear-gradient(#fff, #fff);
   padding-bottom: 2rem;
   height: 700px;
 }
